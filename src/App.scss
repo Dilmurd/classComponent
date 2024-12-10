@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-color: #14110E;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1202px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.container__lg{
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+.flavour{
+    margin-top: 140px;
+    .flavour__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 34px;
+        .flavour__card{
+            width: 366px;
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+            .flavour__titles{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 10px;
+                .flavour__number{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #C99E71;
+                }
+                .flavour__title{
+                    font-size: 24px;
+                    color: #fff;
+                    font-weight: 600;
+                    transition: .5s;
+                    &:hover{
+                        color: #C99E71;
+                    }
+                }
+            }
+        }
+    }
+}

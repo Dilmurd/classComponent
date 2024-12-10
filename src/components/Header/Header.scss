@@ -1,0 +1,20 @@
+header {
+  background-color: #1c1814;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    .navbar__collection {
+      display: flex;
+      gap: 48px;
+      font-size: 18px;
+      color: #fff;
+      .navbar__item {
+        &:hover {
+          color: #c99e71;
+        }
+      }
+    }
+  }
+}
